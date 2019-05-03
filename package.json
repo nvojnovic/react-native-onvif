@@ -1,10 +1,7 @@
 {
-  "name": "node-onvif",
-  "version": "0.1.7",
-  "description": "The node-onvif is a Node.js module which allows you to communicate with the network camera which supports the ONVIF specifications.",
-  "engines": {
-    "node" : ">=4.4"
-  },
+  "name": "react-native-onvif",
+  "version": "1.0.0",
+  "description": "The react-native-onvif is a react native module which allows you to communicate with the network camera which supports the ONVIF specifications.",
   "main": "./lib/node-onvif.js",
   "files": [
     "lib",
@@ -21,19 +18,29 @@
     "Camera",
     "Network Camera",
     "Security Camera",
+    "React Native",
     "Baby Camera",
     "PTZ"
   ],
-  "homepage": "https://github.com/futomi",
+  "homepage": "https://github.com/nvojnovic/react-native-onvif",
   "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/futomi/node-onvif.git"
+    "url": "https://github.com/nvojnovic/react-native-onvif.git"
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "xml2js": ">=0.4.17",
-    "html": ">=1.0.0"
+    "@tradle/react-native-http": "^2.0.1",
+    "buffer": "^5.2.1",
+    "events": "^1.1.0",
+    "rn-create-hash": "git+https://github.com/nvojnovic/rn-create-hash.git",
+    "timers": "^0.1.1",
+    "url": "^0.11.0",
+    "util": "^0.10.3",
+    "xml2js": "^0.4.19"
+  },
+  "peerDependencies": {
+    "react-native-udp": "^2.6.0"
   }
 }

@@ -1,7 +1,7 @@
-node-onvif
+react-native-onvif
 ===============
 
-The node-onvif is a Node.js module which allows you to communicate with the network camera which supports the ONVIF specifications.
+This is a fork of node-onvif that uses react-native-udp instead of dgram to enable react multicast messaging and plain socket control. Other Node.js native modules are also replaced with pure javascript modules needed for React Native environment. The API is the same as in the forked version.
 
 The [ONVIF](http://www.onvif.org/) (Open Network Video Interface) is an open industry forum promoting and developing global standards for interfaces of IP-based physical security products such as network cameras. The ONVIF specifications are available in [their web site](http://www.onvif.org/Documents/Specifications.aspx).
 
@@ -19,15 +19,16 @@ Besides, the node-onvif provides you with simple APIs that allow you to control 
 
 ## Installation
 
+* First install and link [react-native-udp](https://github.com/tradle/react-native-udp) in your project.
+* Then install this module
+
 ```
-$ npm install -s node-onvif
+$ npm install -s react-native-onvif
 ```
 
 ## Sample Application
 
-This package includes a sample application "[ONVIF Network Camera Manager](https://github.com/futomi/node-onvif/tree/master/sample)". You can try this module with your PTZ ONVIF network camera easily.
-
-![ONVIF Network Camera Manager](sample/imgs/manager_controller.jpg)
+React Native sample application coming soon.
 
 ---------------------------------------
 ## Table of Contents
