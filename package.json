@@ -35,6 +35,7 @@
     "buffer": "^5.2.1",
     "events": "^1.1.0",
     "rn-create-hash": "git+https://github.com/nvojnovic/rn-create-hash.git",
+    "stream": "0.0.2",
     "timers": "^0.1.1",
     "url": "^0.11.0",
     "util": "^0.10.3",
