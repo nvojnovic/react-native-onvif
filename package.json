@@ -42,6 +42,6 @@
     "xml2js": "^0.4.19"
   },
   "peerDependencies": {
-    "react-native-udp": "^2.6.0"
+    "react-native-udp": "^3.0.0"
   }
 }
